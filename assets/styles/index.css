@@ -2,10 +2,30 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-gap: 10px;
+  background-color: rgb(179, 204, 240);
 }
 
 .grid{
-  background-color: rgb(78, 138, 242);
+  background-color: rgb(37, 114, 248);
   padding: 30px;
   border-radius: 5px;
+  text-align: center;
+}
+
+.grid-item1{
+  grid-row: 1;
+  grid-column: span 2;
+}
+
+.grid-item2{
+  grid-row:span 2 ;
+}
+
+.grid-item5{
+  grid-row: 3;
+  grid-column: 1 / span 3;
+}
+
+a{
+  text-decoration: none;
 }
